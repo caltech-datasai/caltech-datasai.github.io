@@ -1,0 +1,81 @@
+name: datasai
+channels:
+  - default
+dependencies:
+  - python
+  - bokeh
+  - click
+  - colorcet
+  - contourpy
+  - datashader
+  - fastparquet
+  - h5netcdf
+  - h5py
+  - holoviews
+  - hvplot
+  - hypothesis
+  - ipython
+  - ipywidgets
+  - jinja2
+  - jsonschema
+  - jupyter
+  - matplotlib
+  - mypy
+  - netcdf4
+  - numba
+  - numpy
+  - openpyxl
+  - packaging
+  - pandas
+  # - pandoc
+  - param
+  - pip
+  - pyarrow
+  - pytest
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - selenium
+  # - setuptools
+  - statsmodels
+  - sympy
+  - toolz
+  - tqdm
+  - traitlets
+  # - twine
+  - ujson
+  - xarray
+  - xlrd
+  - zarr
+  - pip:
+  # We may also want to include MNE, https://mne.tools/stable/index.html
+    - accessible-pygments
+    - arviz
+    - awscli
+    - bebi103
+    - black
+    - blackcellmagic
+    - build
+    - cmdstanpy
+    - commonmark
+    - daft-pgm
+    - dandi
+    - h5pyd
+    - hmmlearn
+    - iqplot
+    - jupytext
+    - jupyter-cache
+    - jupyterlab
+    - jupyter_bokeh
+    - jupyterlab-quarto
+    - jupyterlab-spellchecker
+    - markdown-it-py
+    - mne
+    - multiprocess
+    - polars
+    - pynwb
+    - tdt
+    - watermark
+    - xarray-datatree
+    - xarray-einstats
