@@ -61,6 +61,7 @@ dependencies:
     - commonmark
     - daft-pgm
     - dandi
+    - great_tables
     - h5pyd
     - hmmlearn
     - iqplot
