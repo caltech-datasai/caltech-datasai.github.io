@@ -2498,6 +2498,81 @@
     ]
   },
   {
+    "objectID": "exercises/sampling_exercises.html",
+    "href": "exercises/sampling_exercises.html",
+    "title": "Sampling and simulation exercises",
+    "section": "",
+    "text": "Following is a sample of sampling exercises you can do.",
+    "crumbs": [
+      "Sampling and simulation exercises"
+    ]
+  },
+  {
+    "objectID": "exercises/heavy_tails.html",
+    "href": "exercises/heavy_tails.html",
+    "title": "47  Exploring tails of distributions",
+    "section": "",
+    "text": "| Download notebook\n\na) Say I have three distributions:\n\nExponential, β=1\nNormal, μ=1, σ=1\nCauchy, µ=1, σ=1\n\nSay I draw numbers out of each of these distributions. Rank order the distributions, lowest to highest, in terms of how likely I am do draw a number greater than 10. You do not need to calculate anything to answer this question.\nb) Now draw a million numbers out of each of the three distributions. Which, if any, had numbers greater than ten? Was your intuition from part (a) correct?",
+    "crumbs": [
+      "Sampling and simulation exercises",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Exploring tails of distributions</span>"
+    ]
+  },
+  {
+    "objectID": "exercises/refractory_isi.html",
+    "href": "exercises/refractory_isi.html",
+    "title": "48  Spike timing with a refractory period",
+    "section": "",
+    "text": "| Download notebook\n\nAfter a neuron spikes, there is a refractory period, typically a few milliseconds, for the membrane potential to return to its rest state. A neuron cannot fire during a refractory period.\na) Draw samples of interspike intervals for neuronal firing modeled as a Poisson process with a refractory period. Think carefully about what distribution you want use to model the refractory period.\nb) Now consider the noisy LIF model that has a refractory period. Draw samples of interspike intervals in this case. Again, think carefully about how you model the refractory period.",
+    "crumbs": [
+      "Sampling and simulation exercises",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Spike timing with a refractory period</span>"
+    ]
+  },
+  {
+    "objectID": "exercises/lif_inverse_gaussian.html",
+    "href": "exercises/lif_inverse_gaussian.html",
+    "title": "49  The noisy LIF model and the Inverse Gaussian distribution",
+    "section": "",
+    "text": "| Download notebook\n\nUse sampling and simulation to demonstrate that the noisy leaky integrate-and-fire model approximately gives Inverse Gaussian-distributed interspike intervals in the limit of small \\(\\tau_m\\).",
+    "crumbs": [
+      "Sampling and simulation exercises",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>The noisy LIF model and the Inverse Gaussian distribution</span>"
+    ]
+  },
+  {
+    "objectID": "exercises/intro_mcmc_exercises.html",
+    "href": "exercises/intro_mcmc_exercises.html",
+    "title": "Introductory MCMC exercises",
+    "section": "",
+    "text": "Pass the mic to the MCMC! It’s time to do some exercises!",
+    "crumbs": [
+      "Introductory MCMC exercises"
+    ]
+  },
+  {
+    "objectID": "exercises/sample_bivariate_normal.html",
+    "href": "exercises/sample_bivariate_normal.html",
+    "title": "50  Sampling out of a bivariate Normal distribution",
+    "section": "",
+    "text": "| Download notebook\n\nDraw 4000 samples out of a bivariate Normal distribution with mean \\(\\boldsymbol{\\mu} = (10, 20)\\) and a covariance matrix of\n\\[\\begin{align}\n\\mathsf{\\Sigma} = \\begin{pmatrix}\n4 & -2 \\\\\n-2 & 6\n\\end{pmatrix}\n\\end{align}\\]\nusing each of the following three methods.\na) Using Numpy.\nb) Using Stan’s build-in random number generator (that is, in the generated quantities block).\nc) Using Stan’s MCMC sampler.\nMake plots of the samples to show they are consistent.",
+    "crumbs": [
+      "Introductory MCMC exercises",
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Sampling out of a bivariate Normal distribution</span>"
+    ]
+  },
+  {
+    "objectID": "exercises/funnel_of_hell.html",
+    "href": "exercises/funnel_of_hell.html",
+    "title": "51  Funnel of hell",
+    "section": "",
+    "text": "| Download notebook\n\n\n\nCode\n# Colab setup ------------------\nimport os, shutil, sys, subprocess, urllib.request\nif \"google.colab\" in sys.modules:\n    cmd = \"pip install --upgrade iqplot colorcet bebi103 arviz cmdstanpy watermark\"\n    process = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)\n    stdout, stderr = process.communicate()\n    from cmdstanpy.install_cmdstan import latest_version\n    cmdstan_version = latest_version()\n    cmdstan_url = f\"https://github.com/stan-dev/cmdstan/releases/download/v{cmdstan_version}/\"\n    fname = f\"colab-cmdstan-{cmdstan_version}.tgz\"\n    urllib.request.urlretrieve(cmdstan_url + fname, fname)\n    shutil.unpack_archive(fname)\n    os.environ[\"CMDSTAN\"] = f\"./cmdstan-{cmdstan_version}\"\n    data_path = \"https://s3.amazonaws.com/bebi103.caltech.edu/data/\"\nelse:\n    data_path = \"../data/\"\n# ------------------------------\n\n\n\nimport numpy as np\n\nimport bebi103\n\nimport bokeh.io\nbokeh.io.output_notebook()\n\n    \n    \n        \n        Loading BokehJS ...\n    \n\n\n\n\n\n\nIn his 2003 paper, Radford Neal pointed out that sampling out of relatively simply distributions using MCMC can be challenging. He proposed the following model, a kind of distribution that Thomas Wiecki has referred to as the “funnel of hell,” as a demonstration.\n\\[\\begin{align}\n& v \\sim \\text{Norm}(0, 3),\\\\[1em]\n& \\theta \\sim \\text{Norm}(0, \\mathrm{e}^{v/2}),\n\\end{align}\n\\tag{51.1}\\]\nThat is, \\(v\\) is Normally distribution with mean zero and variance 9, and \\(\\theta\\) is Normally distributed with mean zero and variance \\(\\mathrm{e}^v\\). The joint distribution is then\n\\[\\begin{align}\nP(\\theta, v) = P(\\theta\\mid v) \\,P(v) = \\frac{\\mathrm{e}^{-v/2}}{6\\pi}\\,\\exp\\left[-\\frac{1}{2}\\left(\\frac{v^2}{9} + \\frac{\\theta^2}{\\mathrm{e}^v}\\right)\\right]\n\\end{align}\n\\tag{51.2}\\]\nWe can compute the PDF analytically, so let’s make a plot of it so we know what we’re sampling out of.\n\ntheta = np.linspace(-4, 4, 400)\nv = np.linspace(-15, 5, 400)\n\nTHETA, V = np.meshgrid(theta, v)\nP = np.exp(-V / 2) / 6 / np.pi * np.exp(-(V ** 2 / 9 + THETA ** 2 / np.exp(V)) / 2)\n\n# Show it by hacking contour to show image, but no contours\nbokeh.io.show(\n    bebi103.viz.contour(\n        THETA,\n        V,\n        P,\n        overlaid=True,\n        line_kwargs=dict(alpha=0),\n        x_axis_label=\"θ\",\n        y_axis_label=\"v\",\n    )\n)\n\n\n  \n\n\n\n\n\nThis probability density function is funnel shaped, named “the Funnel of Hell” by Thomas Wiecki.\nNote that much of the probability density lies deep in the needle, which is a region of high curvature.\nThis simple distribution allows for independent sampling without MCMC. First, let’s generate some of these samples so we can see what effective sampling should look like.\n\n# Sample out of distribution\nnp.random.seed(3252)\nv = np.random.normal(0, 3, size=4000)\ntheta = np.random.normal(0, np.exp(v / 2))\n\np = bokeh.plotting.figure(\n    height=400, width=450, x_range=[-100, 100], x_axis_label=\"θ\", y_axis_label=\"v\"\n)\np.scatter(theta, v, alpha=0.3, color=\"#66c2a5\", legend_label=\"indep. samples\")\np.legend.location = \"bottom_left\"\nbokeh.io.show(p)\n\n\n  \n\n\n\n\n\nYour task is to code up a Stan model for this distribution and use MCMC to get samples out of it. Then, overlay those samples on the plot of the independent samples. What do you observe? (There will be obvious problems with the sampling, and we will address these in coming lessons.)",
+    "crumbs": [
+      "Introductory MCMC exercises",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Funnel of hell</span>"
+    ]
+  },
+  {
     "objectID": "appendices/notation.html",
     "href": "appendices/notation.html",
     "title": "Appendix A — Notation",
