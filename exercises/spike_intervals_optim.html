@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>66&nbsp; Inferring a changepoint – DataSAI for Neuroscience Summer School</title>
+<title>67&nbsp; Optimization and spiking – DataSAI for Neuroscience Summer School</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../exercises/optimization_exercises.html" rel="next">
-<link href="../exercises/exp_gamma_conj.html" rel="prev">
+<link href="../appendices/notation.html" rel="next">
+<link href="../exercises/optimization_exercises.html" rel="prev">
 <link href="../logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -112,7 +112,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../exercises/inference_with_mcmc_exercises.html">Inference with MCMC exercises</a></li><li class="breadcrumb-item"><a href="../exercises/changepoint_sampling.html"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Inferring a changepoint</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../exercises/optimization_exercises.html">Optimization exercises</a></li><li class="breadcrumb-item"><a href="../exercises/spike_intervals_optim.html"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Optimization and spiking</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -748,11 +748,11 @@ window.Quarto = {
       <div class="sidebar-item-container"> 
             <a href="../exercises/inference_with_mcmc_exercises.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inference with MCMC exercises</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../exercises/gamma_spiking.html" class="sidebar-item-text sidebar-link">
@@ -767,7 +767,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../exercises/changepoint_sampling.html" class="sidebar-item-text sidebar-link active">
+  <a href="../exercises/changepoint_sampling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Inferring a changepoint</span></span></a>
   </div>
 </li>
@@ -777,14 +777,14 @@ window.Quarto = {
       <div class="sidebar-item-container"> 
             <a href="../exercises/optimization_exercises.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Optimization exercises</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../exercises/spike_intervals_optim.html" class="sidebar-item-text sidebar-link">
+  <a href="../exercises/spike_intervals_optim.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Optimization and spiking</span></span></a>
   </div>
 </li>
@@ -918,9 +918,9 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../exercises/inference_with_mcmc_exercises.html">Inference with MCMC exercises</a></li><li class="breadcrumb-item"><a href="../exercises/changepoint_sampling.html"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Inferring a changepoint</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../exercises/optimization_exercises.html">Optimization exercises</a></li><li class="breadcrumb-item"><a href="../exercises/spike_intervals_optim.html"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Optimization and spiking</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="exr-changepoint-sampling" class="quarto-section-identifier"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Inferring a changepoint</span></span></h1>
+<h1 class="title"><span id="exr-spike-optimization" class="quarto-section-identifier"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Optimization and spiking</span></span></h1>
 </div>
 
 
@@ -937,14 +937,13 @@ window.Quarto = {
 </header>
 
 
-<p><a href="https://colab.research.google.com/github/caltech-datasai/datasai_notebooks_2025/blob/main/changepoint_sampling.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Google Colab" title="Open in Google Colab"></a> | <a href="https://colab.research.google.com/github/caltech-datasai/datasai_notebooks_2025/blob/main/changepoint_sampling.ipynb">Download notebook</a></p>
+<p><a href="https://colab.research.google.com/github/caltech-datasai/datasai_notebooks_2025/blob/main/spike_intervals_optim.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Google Colab" title="Open in Google Colab"></a> | <a href="https://colab.research.google.com/github/caltech-datasai/datasai_notebooks_2025/blob/main/spike_intervals_optim.ipynb">Download notebook</a></p>
+<p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/rgc_spike_times_1.csv">Data set download</a></p>
 <hr>
-<p>In <span class="quarto-unresolved-ref">?exr-changepoint-model</span>, you developed a model for a changepoint analysis. The text of that problem is repeated below.</p>
-<blockquote class="blockquote">
-<p>Consider the following twist on the experiment we have been considering where a retinal ganglion cell’s spiking is monitored under constant light. The retina is exposed to constant light, but at some time between the start and end of the experience, the impinging light intensity changes. That is, for <span class="math inline">\(0 \le t &lt; t_\mathrm{switch}\)</span>, the retina is exposed to one light intensity, and for <span class="math inline">\(t_\mathrm{switch} \le t \le T\)</span>, it is exposed to another. The problem is that you do not know what <span class="math inline">\(t_\mathrm{switch}\)</span> is, and you have to infer it. Your task is to construct a Bayesian model for this situation, complete with prior predictive checks.</p>
-<p>This is a simple example of a <strong>decoding problem</strong>, in which a stimulus is inferred from neuronal signals.</p>
-</blockquote>
-<p>Your take is to infer the neuron firing rates before and after the changepoint as well as the changepoint itself.</p>
+<p>In <a href="../lessons/inference_by_mcmc/parameter_estimation_with_mcmc_1.html" class="quarto-xref"><span>Chapter 28</span></a> and <a href="../lessons/inference_by_mcmc/parameter_estimation_with_mcmc_2.html" class="quarto-xref"><span>Chapter 31</span></a>, we considered models for the interspike intervals (ISIs) of a retinal ganglion cell exposed to constant light. You have performed inference for this experiment using a Gamma distribution using MCMC in <span class="quarto-unresolved-ref">?exr-gamma-spike</span>.</p>
+<p><strong>a)</strong> Now do that analysis, modeling ISIs as Gamma distributed, using optimization.</p>
+<p><strong>b)</strong> Researchers often determine a spiking rate directly from data by creating time windows, counting the spikes in the window, and then dividing the number of spikes in the time window by the width of the window. So that this is equivalent to finding a MAP spiking rate <span class="math inline">\(\beta\)</span> assuming the spikes are Poissonian with a uniform prior for <span class="math inline">\(\beta\)</span>.</p>
+<p><strong>c)</strong> ISIs are often modeled as Inverse Gaussian. Given a set of ISIs <span class="math inline">\(\mathbf{y}\)</span>, derive an expression for the MAP estimate of the parameters <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\lambda\)</span> of the Inverse Gaussian distribution assuming uniform priors on both. Then, using sensible priors, use the RGC spike times data set to compute MAP estimates for the parameters. Do you get similar results?</p>
 
 
 
@@ -1368,13 +1367,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../exercises/exp_gamma_conj.html" class="pagination-link" aria-label="Exponential ISIs and Gamma priors">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">65</span>&nbsp; <span class="chapter-title">Exponential ISIs and Gamma priors</span></span>
+      <a href="../exercises/optimization_exercises.html" class="pagination-link" aria-label="Optimization exercises">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Optimization exercises</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../exercises/optimization_exercises.html" class="pagination-link" aria-label="Optimization exercises">
-        <span class="nav-page-text">Optimization exercises</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../appendices/notation.html" class="pagination-link" aria-label="Notation">
+        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Notation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
