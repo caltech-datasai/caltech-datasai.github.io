@@ -2,470 +2,506 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://datasai-summer-school.github.io/index.html</loc>
-    <lastmod>2025-06-25T15:16:08.627Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.649Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/polars.html</loc>
-    <lastmod>2025-06-25T15:16:08.858Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.930Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/intro_to_polars.html</loc>
-    <lastmod>2025-06-25T15:16:20.163Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.184Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/tidy_data.html</loc>
-    <lastmod>2025-06-25T15:16:20.164Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.186Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/polars_for_pandas.html</loc>
-    <lastmod>2025-06-25T15:16:20.488Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.522Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/plotting.html</loc>
-    <lastmod>2025-06-25T15:16:08.862Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.934Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/plotting_with_bokeh.html</loc>
-    <lastmod>2025-06-25T15:16:20.155Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.176Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/iqplot.html</loc>
-    <lastmod>2025-06-25T15:16:20.153Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.174Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/styling_bokeh.html</loc>
-    <lastmod>2025-06-25T15:16:20.189Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.209Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/overplotting.html</loc>
-    <lastmod>2025-06-25T15:16:20.187Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.207Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/file_formats.html</loc>
-    <lastmod>2025-06-25T15:16:08.793Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.845Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/matlab_files.html</loc>
-    <lastmod>2025-06-25T15:16:20.395Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.431Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/tdt_files.html</loc>
-    <lastmod>2025-06-25T15:16:20.487Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.520Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/exploratory/nwb_files.html</loc>
-    <lastmod>2025-06-25T15:16:20.149Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.170Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/probability/probability.html</loc>
-    <lastmod>2025-06-25T15:16:08.706Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.742Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/probability/probability_logic_of_science.html</loc>
-    <lastmod>2025-06-25T15:16:08.703Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.740Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/probability/probability_distributions.html</loc>
-    <lastmod>2025-06-25T15:16:08.708Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.744Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/probability/entropy_and_kullback_leibler.html</loc>
-    <lastmod>2025-06-25T15:16:08.708Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.744Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/sampling.html</loc>
-    <lastmod>2025-06-25T15:16:08.756Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.799Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/random_number_generation.html</loc>
-    <lastmod>2025-06-25T15:16:20.119Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.139Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/rng_with_numpy.html</loc>
-    <lastmod>2025-06-25T15:16:20.109Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.126Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/simulation.html</loc>
-    <lastmod>2025-06-25T15:16:08.755Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.799Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/luria_delbruck.html</loc>
-    <lastmod>2025-06-25T15:16:20.116Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.136Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/lif.html</loc>
-    <lastmod>2025-06-25T15:16:20.133Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.154Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/nonhomogeneous_poisson.html</loc>
-    <lastmod>2025-06-25T15:16:20.115Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.134Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/mcmc.html</loc>
-    <lastmod>2025-06-25T15:16:08.747Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.787Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/basics_of_mcmc.html</loc>
-    <lastmod>2025-06-25T15:16:08.753Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.795Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/stan_hello_world.html</loc>
-    <lastmod>2025-06-25T15:16:20.113Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.133Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/sampling/nonhomogeneous_poisson_stan.html</loc>
-    <lastmod>2025-06-25T15:16:20.117Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.137Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/bayesian_modeling.html</loc>
-    <lastmod>2025-06-25T15:16:14.106Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.264Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/basics_of_bayes.html</loc>
-    <lastmod>2025-06-25T15:16:14.107Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.264Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/conjugacy.html</loc>
-    <lastmod>2025-06-25T15:16:20.745Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.967Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/choice_of_prior.html</loc>
-    <lastmod>2025-06-25T15:16:14.105Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.262Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/stats_ml_ai.html</loc>
-    <lastmod>2025-06-25T15:16:14.105Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.262Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/bayes_model_for_learning_and_cognition.html</loc>
-    <lastmod>2025-06-25T15:16:14.103Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.260Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/bayesian_modeling/prior_predictive_checks.html</loc>
-    <lastmod>2025-06-25T15:16:20.741Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.964Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/inference_by_mcmc/inference_by_mcmc.html</loc>
-    <lastmod>2025-06-25T15:16:08.770Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.815Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/inference_by_mcmc/parameter_estimation_with_mcmc_1.html</loc>
-    <lastmod>2025-06-25T15:16:20.145Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.165Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/inference_by_mcmc/posterior_summaries.html</loc>
-    <lastmod>2025-06-25T15:16:20.135Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.157Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/inference_by_mcmc/posterior_predictive_checks.html</loc>
-    <lastmod>2025-06-25T15:16:20.140Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.160Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/inference_by_mcmc/parameter_estimation_with_mcmc_2.html</loc>
-    <lastmod>2025-06-25T15:16:20.143Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.164Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/principled/principled.html</loc>
-    <lastmod>2025-06-25T15:16:08.720Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.761Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/principled/mcmc_diagnostics.html</loc>
-    <lastmod>2025-06-25T15:16:20.056Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.075Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/principled/sbc.html</loc>
-    <lastmod>2025-06-25T15:16:20.056Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.076Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/principled/sbc_in_practice.html</loc>
-    <lastmod>2025-06-25T15:16:20.087Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.104Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/model_assessment/model_assessment.html</loc>
-    <lastmod>2025-06-25T15:16:14.095Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.250Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/model_assessment/model_comparison.html</loc>
-    <lastmod>2025-06-25T15:16:14.096Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.252Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/model_assessment/model_comparison_in_practice.html</loc>
-    <lastmod>2025-06-25T15:16:20.693Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.917Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/optimization.html</loc>
-    <lastmod>2025-06-25T15:16:08.711Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.747Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/optimization_basics.html</loc>
-    <lastmod>2025-06-25T15:16:20.027Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.046Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/gamma_optimization.html</loc>
-    <lastmod>2025-06-25T15:16:20.030Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.050Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/mm_algorithms.html</loc>
-    <lastmod>2025-06-25T15:16:08.710Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.745Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/em_algorithm.html</loc>
-    <lastmod>2025-06-25T15:16:08.713Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.750Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/em_gmm.html</loc>
-    <lastmod>2025-06-25T15:16:08.713Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.751Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/em_gmm_example.html</loc>
-    <lastmod>2025-06-25T15:16:20.034Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.053Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/optimization/kmeans.html</loc>
-    <lastmod>2025-06-25T15:16:20.037Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/lessons/hierarchical/hierarchical.html</loc>
+    <lastmod>2025-06-26T15:14:49.723Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/hierarchical/modeling_repeated_experiments.html</loc>
-    <lastmod>2025-06-25T15:16:19.971Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.991Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/hierarchical/choosing_a_hierarchical_prior.html</loc>
-    <lastmod>2025-06-25T15:16:19.973Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.993Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/hierarchical/hierarchical_implementation.html</loc>
-    <lastmod>2025-06-25T15:16:20.018Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.039Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/hierarchical/generalization.html</loc>
-    <lastmod>2025-06-25T15:16:20.020Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.041Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/hierarchical/hierarchical_implementation_worms.html</loc>
-    <lastmod>2025-06-25T15:16:19.970Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.989Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/pca_and_related/pca_and_related.html</loc>
-    <lastmod>2025-06-25T15:16:08.642Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.668Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/pca_and_related/heuristic_pca.html</loc>
-    <lastmod>2025-06-25T15:16:19.787Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.814Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/pca_and_related/factor_analysis.html</loc>
-    <lastmod>2025-06-25T15:16:19.959Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.977Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/pca_and_related/pca_nmf_as_fa.html</loc>
-    <lastmod>2025-06-25T15:16:08.644Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.671Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/HMM/hmm.html</loc>
-    <lastmod>2025-06-25T15:16:08.873Z</lastmod>
+    <lastmod>2025-06-26T15:14:49.960Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/lessons/HMM/hmm_gaussian_emission.html</loc>
-    <lastmod>2025-06-25T15:16:20.513Z</lastmod>
+    <lastmod>2025-06-26T15:15:02.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/lessons/GLM/glm.html</loc>
+    <lastmod>2025-06-26T15:14:55.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/lessons/GLM/glm_intro.html</loc>
+    <lastmod>2025-06-26T15:14:55.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/lessons/GLM/glm_in_practice.html</loc>
+    <lastmod>2025-06-26T15:15:02.737Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/polars_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.154Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.314Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/frog_tongue_1.html</loc>
-    <lastmod>2025-06-25T15:16:19.592Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.615Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/frog_tongue_2.html</loc>
-    <lastmod>2025-06-25T15:16:19.590Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.614Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/frog_tongue_3.html</loc>
-    <lastmod>2025-06-25T15:16:19.593Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.616Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/palmer_penguins.html</loc>
-    <lastmod>2025-06-25T15:16:19.582Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.604Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/viz_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.151Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.310Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/palmer_penguins_plot.html</loc>
-    <lastmod>2025-06-25T15:16:19.592Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.615Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/prober_fish_sleep.html</loc>
-    <lastmod>2025-06-25T15:16:19.591Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.614Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/file_formats_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.152Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.313Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/open_7z.html</loc>
-    <lastmod>2025-06-25T15:16:19.589Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.612Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/probability_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.160Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.323Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/censored_and_truncated.html</loc>
-    <lastmod>2025-06-25T15:16:19.591Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.614Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/isi_distributions.html</loc>
-    <lastmod>2025-06-25T15:16:19.590Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.613Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/entropy_of_normal.html</loc>
-    <lastmod>2025-06-25T15:16:19.589Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.612Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/sampling_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:19.418Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.415Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/heavy_tails.html</loc>
-    <lastmod>2025-06-25T15:16:19.590Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.613Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/refractory_isi.html</loc>
-    <lastmod>2025-06-25T15:16:19.582Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.604Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/lif_inverse_gaussian.html</loc>
-    <lastmod>2025-06-25T15:16:19.592Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.615Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/intro_mcmc_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.158Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.320Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/sample_bivariate_normal.html</loc>
-    <lastmod>2025-06-25T15:16:19.589Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.610Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/funnel_of_hell.html</loc>
-    <lastmod>2025-06-25T15:16:19.587Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.610Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/bayesian_modeling_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.141Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.297Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/boolean_sampling.html</loc>
-    <lastmod>2025-06-25T15:16:19.593Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.616Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/inverse_gaussian_spiking_ppc.html</loc>
-    <lastmod>2025-06-25T15:16:19.592Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.615Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/changepoint_model.html</loc>
-    <lastmod>2025-06-25T15:16:19.593Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.616Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/aggression_model.html</loc>
-    <lastmod>2025-06-25T15:16:19.591Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.614Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/inference_with_mcmc_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.138Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.292Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/gamma_spiking.html</loc>
-    <lastmod>2025-06-25T15:16:19.589Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.613Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/exp_gamma_conj.html</loc>
-    <lastmod>2025-06-25T15:16:19.590Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.613Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/changepoint_sampling.html</loc>
-    <lastmod>2025-06-25T15:16:19.591Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.615Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/optimization_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.146Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.306Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/spike_intervals_optim.html</loc>
-    <lastmod>2025-06-25T15:16:19.582Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.604Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/heavy_tails_outliers.html</loc>
-    <lastmod>2025-06-25T15:16:19.590Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.613Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/hierarchical_exercises.html</loc>
-    <lastmod>2025-06-25T15:16:14.159Z</lastmod>
+    <lastmod>2025-06-26T15:14:55.322Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/hier_in_plain_sight.html</loc>
-    <lastmod>2025-06-25T15:16:19.593Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.616Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/exercises/pole_descent.html</loc>
-    <lastmod>2025-06-25T15:16:19.589Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.610Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/exercises/pca_exercises.html</loc>
+    <lastmod>2025-06-26T15:14:55.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/exercises/pca_jango.html</loc>
+    <lastmod>2025-06-26T15:15:01.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/exercises/hmm_exercises.html</loc>
+    <lastmod>2025-06-26T15:14:55.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/exercises/standing_still.html</loc>
+    <lastmod>2025-06-26T15:15:01.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://datasai-summer-school.github.io/exercises/hmm_simulation.html</loc>
+    <lastmod>2025-06-26T15:15:01.615Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/notation.html</loc>
-    <lastmod>2025-06-25T15:16:19.450Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.455Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/setting_up_python_computing_environment.html</loc>
-    <lastmod>2025-06-25T15:16:19.572Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.592Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/hello_world.html</loc>
-    <lastmod>2025-06-25T15:16:19.578Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.600Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/variables_operators_types.html</loc>
-    <lastmod>2025-06-25T15:16:19.577Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.599Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/lists_and_tuples.html</loc>
-    <lastmod>2025-06-25T15:16:19.575Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.597Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/iteration.html</loc>
-    <lastmod>2025-06-25T15:16:19.574Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.596Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/intro_to_functions.html</loc>
-    <lastmod>2025-06-25T15:16:19.581Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.603Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/string_methods.html</loc>
-    <lastmod>2025-06-25T15:16:19.574Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.595Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/dictionaries.html</loc>
-    <lastmod>2025-06-25T15:16:19.580Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.602Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/comprehensions.html</loc>
-    <lastmod>2025-06-25T15:16:19.578Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.600Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/packages_and_modules.html</loc>
-    <lastmod>2025-06-25T15:16:19.573Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.595Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/exceptions_and_error_handling.html</loc>
-    <lastmod>2025-06-25T15:16:19.581Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.604Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/file_io.html</loc>
-    <lastmod>2025-06-25T15:16:19.579Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.601Z</lastmod>
   </url>
   <url>
     <loc>https://datasai-summer-school.github.io/appendices/python/intro_to_numpy_and_scipy.html</loc>
-    <lastmod>2025-06-25T15:16:19.580Z</lastmod>
+    <lastmod>2025-06-26T15:15:01.602Z</lastmod>
   </url>
 </urlset>
