@@ -1103,8 +1103,14 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">In this section</h2>
+   
+  <ul class="collapse">
+  <li><a href="#solution" id="toc-solution" class="nav-link active" data-scroll-target="#solution"><span class="header-section-number">72.1</span> Solution</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -1130,10 +1136,42 @@ window.Quarto = {
 
 <p><a href="https://colab.research.google.com/github/caltech-datasai/datasai_notebooks_2025/blob/main/changepoint_model.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Google Colab" title="Open in Google Colab"></a> | <a href="https://colab.research.google.com/github/caltech-datasai/datasai_notebooks_2025/blob/main/changepoint_model.ipynb">Download notebook</a></p>
 <hr>
-<p>Consider the following twist on the experiment we have been considering where a retinal ganglion cell’s spiking is monitored under constant light. The retina is exposed to constant light, but at some time between the start and end of the experience, the impinging light intensity changes. That is, for <span class="math inline">\(0 \le t &lt; t_\mathrm{switch}\)</span>, the retina is exposed to one light intensity, and for <span class="math inline">\(t_\mathrm{switch} \le t \le T\)</span>, it is exposed to another. The problem is that you do not know what <span class="math inline">\(t_\mathrm{switch}\)</span> is, and you have to infer it. Your task is to construct a Bayesian model for this situation, complete with prior predictive checks.</p>
+<p>Consider the following twist on the experiment we have been considering where a retinal ganglion cell’s spiking is monitored under constant light. The retina is exposed to constant light, but at some time between the start and end of the experience, the impinging light intensity changes. That is, for <span class="math inline">\(0 \le t &lt; s\)</span>, the retina is exposed to one light intensity, and for <span class="math inline">\(s \le t \le T\)</span>, it is exposed to another. The problem is that you do not know what <span class="math inline">\(s\)</span> is, and you have to infer it. Your task is to construct a Bayesian model for this situation, complete with prior predictive checks.</p>
 <p>This is a simple example of a <strong>decoding problem</strong>, in which a stimulus is inferred from neuronal signals.</p>
+<section id="solution" class="level2" data-number="72.1">
+<h2 data-number="72.1" class="anchored" data-anchor-id="solution"><span class="header-section-number">72.1</span> Solution</h2>
+<hr>
+<p>In what follows, we assume <span class="math inline">\(0 \le s \le T\)</span>. We can write the spiking rate according to the change point using a Heaviside function as</p>
+<p><span class="math display">\[\begin{align}
+\beta(t) = \beta_1 + (\beta_2 - \beta_1)\theta(t-s).
+\end{align}
+\]</span></p>
+<p>The likelihood for the spike times (and the fact that there was no spike between <span class="math inline">\(t_n\)</span> and <span class="math inline">\(T\)</span>) is</p>
+<p><span class="math display">\[\begin{align}
+f(\mathbf{t}, T\mid \beta(t)) = \left(\prod_{i=1}^n\beta(t_i)\right)\exp\left[-\int_0^T \mathrm{d}t\,\beta(t)\right].
+\end{align}
+\]</span></p>
+<p>The integral for the above defined <span class="math inline">\(\beta(t)\)</span> is</p>
+<p><span class="math display">\[\begin{align}
+\int_0^T \mathrm{d}t\,\beta(t) = \beta_1\,s + \beta_2(T-s).
+\end{align}
+\]</span></p>
+<p>giving a likelihood of</p>
+<p><span class="math display">\[\begin{align}
+f(\mathbf{t}, T\mid \beta(t)) = \left(\prod_{i=1}^n(\beta_1 + (\beta_2 - \beta_1)\theta(t_i-s))\right)\mathrm{e}^{-\beta_2 T}\,\mathrm{e}^{-(\beta_1 - \beta_2)s}.
+\end{align}
+\]</span></p>
+<p>We do not know where on the domain <span class="math inline">\([0, T]\)</span> that the changepoint lies, so we will assume a Uniform prior for <span class="math inline">\(s\)</span>. We will use weakly informative Gamma priors for the spiking rates. Assuming times are in units of milliseconds (and rates therefore in units of kHz), I will take both <span class="math inline">\(\beta_1\)</span> and <span class="math inline">\(\beta_2\)</span> to be Gamma distributed with parameters <span class="math inline">\(\alpha = 0.65\)</span> and <span class="math inline">\(\beta = 2.9\)</span> kHz. Thus, the generative model is as follows.</p>
+<p><span class="math display">\[\begin{align}
+&amp;\beta_1 \sim \text{Gamma}(0.65, 2.9),\\[1em]
+&amp;\beta_2 \sim \text{Gamma}(0.65, 2.9),\\[1em]
+&amp;s \sim \text{Uniform}(0, T),\\[1em]
+&amp;f(\mathbf{t}, T\mid \beta_1, \beta_2, s) = \left(\prod_{i=1}^n(\beta_1 + (\beta_2 - \beta_1)\theta(t_i-s))\right)\mathrm{e}^{-\beta_2 T}\,\mathrm{e}^{-(\beta_1 - \beta_2)s}.
+\end{align}
+\]</span></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
